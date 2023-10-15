@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <title>Project Name</title>
+    </head>
+    <body>
+        <div class="mainWindow">
+            <ul class="leftBar">
+                <li><a href="#"><img  src="img/home.svg" alt="Icon">Project</a></li>
+                <li><a href="#"><img  src="img/layoutIcon.png" alt="Icon">Layout</a></li>
+                <li><a href="#"><img  src="img/mapping.svg" alt="Icon">Mapping</a></li>
+                <li><a href="#"><img  src="img/patch.svg" alt="Icon">Patch</a></li>
+                <li><a href="#"><img  src="img/timeline.svg" alt="Icon">Timeline</a></li>
+                <li><a href="#"><img  src="img/trigger.svg" alt="Icon">Trigger</a></li>
+                <li><a href="#"><img  src="img/simulate.svg" alt="Icon">Simulate</a></li>
+                <li><a href="#"><img  src="img/network.svg" alt="Icon">Network</a></li>
+            </ul>
+            <div class = "rightWindow">
+                <h1>Project Name</h1>
+                <form name="projectInformation" metod="post" action="#">
+                    <table>
+                        <tr>
+                            <th>New project name: </th>
+                            <th><input type="text" name="projectName"></th>
+                        </tr>
+                        <tr>
+                            <th>Author: </th>
+                            <th><input type="text" name="author"></th>
+                        </tr>
+                        <tr>
+                            <th>Description: </th>
+                            <th><textarea name="description" cols="40" rows="6"></textarea></th>
+                        </tr>
+                    </table>
+                    <p ><input class="button" type="submit" value="Save">
+                    <input class="button" type="reset" value="Clean"></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
