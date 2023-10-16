@@ -1,7 +1,6 @@
 
 
 .mainWindow {
-    display: table-row;
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -12,7 +11,7 @@
 }
 
 ul.leftBar{
-    display:  table-cell;
+
     width: 8em;
     margin-left: 0px;
     padding: 10px 10px 10px 10px;
@@ -51,11 +50,12 @@ ul.leftBar a:hover{
     background: white;
 }
 
-div.rightWindow{
+.rightWindow{
     display:  table-cell;
     width: 100%;
     height: auto;
-    border-radius: 10px
+    border-radius: 10px;
+    vertical-align: top;
     
 }
 
@@ -70,18 +70,10 @@ div.rightWindow h2{
     margin: 0 0 1em 1em;
 }
 
-div.rightWindow table{
-   text-align: left; 
-}
-
-div.rightWindow th{
-    padding: 0.5em 1em 0 1em;
-    
-}
-
-div.rightWindow p{
-    padding: 0.5em 1em 0 1em;
-    
+.rightWindow table{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc;
 }
 
 .button {
@@ -97,5 +89,22 @@ div.rightWindow p{
     background: white;
 }
 
+.layoutManager{
+    width: 20%;
+    height: auto;
+    text-align: left; 
+    border: 2px solid #ccc;
+}
 
+.layoutGrid{
+    width: 60%;
+    text-align: left; 
+    border: 2px solid #ccc;
+}
+
+.layoutFixturesManager{
+    width: 40%;
+    text-align: left; 
+    border: 2px solid #ccc;
+}
 

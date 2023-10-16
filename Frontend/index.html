@@ -8,18 +8,19 @@
     <body>
         <div class="mainWindow">
             <ul class="leftBar">
-                <li><a href="#"><img  src="img/home.svg" alt="Icon">Project</a></li>
-                <li><a href="#"><img  src="img/layoutIcon.png" alt="Icon">Layout</a></li>
-                <li><a href="#"><img  src="img/mapping.svg" alt="Icon">Mapping</a></li>
-                <li><a href="#"><img  src="img/patch.svg" alt="Icon">Patch</a></li>
-                <li><a href="#"><img  src="img/timeline.svg" alt="Icon">Timeline</a></li>
-                <li><a href="#"><img  src="img/trigger.svg" alt="Icon">Trigger</a></li>
-                <li><a href="#"><img  src="img/simulate.svg" alt="Icon">Simulate</a></li>
-                <li><a href="#"><img  src="img/network.svg" alt="Icon">Network</a></li>
+                <li><a href="index.html"><img  src="img/home.svg" alt="Icon">Project</a></li>
+                <li><a href="layout.html"><img  src="img/layoutIcon.png" alt="Icon">Layout</a></li>
+                <li><a href="mapping.html"><img  src="img/mapping.svg" alt="Icon">Mapping</a></li>
+                <li><a href="patch.html"><img  src="img/patch.svg" alt="Icon">Patch</a></li>
+                <li><a href="timeline.html"><img  src="img/timeline.svg" alt="Icon">Timeline</a></li>
+                <li><a href="trigger.html"><img  src="img/trigger.svg" alt="Icon">Trigger</a></li>
+                <li><a href="simulate.html"><img  src="img/simulate.svg" alt="Icon">Simulate</a></li>
+                <li><a href="network.html"><img  src="img/network.svg" alt="Icon">Network</a></li>
             </ul>
             <div class = "rightWindow">
                 <h1>Project Name</h1>
                 <form name="projectInformation" metod="post" action="#">
+                    <h2>Project information</h2>
                     <table>
                         <tr>
                             <th>New project name: </th>
@@ -37,7 +38,76 @@
                     <p ><input class="button" type="submit" value="Save">
                     <input class="button" type="reset" value="Clean"></p>
                 </form>
+                <p></p><p></p><p></p>
+                <form name="location" metod="post" action="#">
+                    <h2>Location and time</h2>
+                    <table>
+                        <tr>
+                            <th>City: </th>
+                            <th>
+                                <select name="cityName">
+                                    <option value="0"></option>
+                                    <option value="1">Dnipro</option>
+                                    <option value="2">Kyiv</option>
+                                    <option value="3">Warsaw</option>
+                                    <option value="4">Paris</option>
+                                    <option value="5">Berlin</option>
+                                    <option value="6">London</option>
+                                    
+                                </select>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Latitude: </th>
+                            <th><input type="text" name="latitude"></th>
+                        </tr>
+                        <tr>
+                            <th>Longitude: </th>
+                            <th><input type="text" name="longitude"></th>
+                        </tr>
+                        <tr>
+                            <th>Date: </th>
+                            <th><input type="date" name="date"></th>
+                        </tr>
+                        <tr>
+                            <th>Time: </th>
+                            <th><input type="time" name="time"></th>
+                        </tr>
+                    </table>
+                    <p ><input class="button" type="submit" value="Save">
+                    <input class="button" type="reset" value="Clean"></p>
+                </form>
+                
             </div>
         </div>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
