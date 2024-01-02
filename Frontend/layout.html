@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styleLayout.css">
-        <script src="js/script.js"></script>
+        
         <title>Project Name | Layout</title>
     </head>
     <body>
@@ -20,20 +20,26 @@
                             <li><a href="simulate.html"><img  src="img/simulate.svg" alt="Icon">Simulate</a></li>
                             <li><a href="network.html"><img  src="img/network.svg" alt="Icon">Network</a></li>
                         </ul>
-
                     </td>
-
-                    <td class="rightWindow">
-                        <div>
-                            <div class="layoutManager"></div>
-                            <div class="layoutGrid">dzg</div>
-                            <div class="layoutFixturesManager">dzxhb</div>
-                            
-                        </div>
+                    <td class="layoutManager"><h2>Layout manager</h2></td>
+                    <td id="layoutGrid" class="layoutGrid">
+                        <h1>Layout</h1>
+                        <div class="gridConteiner">
+                            <table id="field" class="tableField"></table>
+                        </div>  
+                    </td>
+                    <td class="layoutFixturesManager">
+                        <h2>Fixture manager</h2>
+                        <ul>
+                            <li id="singleChanel">Single chanel</li>
+                            <li id="rgb">RGB</li>
+                            <li id="rgbw">RGBW</li>
+                        </ul>
                     </td>
                 </tr>
             </table>
         </div>
+        <script src="js/layout.js"></script>
     </body>
 </html>
 
